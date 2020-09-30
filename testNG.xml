@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="5">
+	<parameter name="URL" value="https://demoqa.com/" />
+	<test thread-count="2" name="ToolsQA">
+		<classes>
+
+			<class name="Pages.studentRegistrationFormTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

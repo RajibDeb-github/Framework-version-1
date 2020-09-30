@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-28T15:59:53Z" name="Pages.studentRegistrationFormTest" finished-at="2020-09-28T16:00:44Z" duration-ms="51038">
+    <groups>
+    </groups>
+    <test started-at="2020-09-28T15:59:53Z" name="Command line test" finished-at="2020-09-28T16:00:44Z" duration-ms="51038">
+      <class name="Pages.studentRegistrationFormTest">
+        <test-method is-config="true" signature="preCond()[pri:0, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T15:59:53Z" name="preCond" finished-at="2020-09-28T16:00:20Z" duration-ms="26893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T16:00:20Z" name="navigateToMainPage" finished-at="2020-09-28T16:00:23Z" duration-ms="2893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMainPage -->
+        <test-method signature="TC1()[pri:1, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T16:00:23Z" name="TC1" finished-at="2020-09-28T16:00:34Z" duration-ms="10808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T16:00:34Z" name="methodEndTest" finished-at="2020-09-28T16:00:34Z" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1 status=SUCCESS method=studentRegistrationFormTest.TC1()[pri:1, instance:Pages.studentRegistrationFormTest@3427b02d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEndTest -->
+        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T16:00:34Z" name="navigateToMainPage" finished-at="2020-09-28T16:00:36Z" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMainPage -->
+        <test-method signature="TC2()[pri:2, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T16:00:36Z" name="TC2" finished-at="2020-09-28T16:00:42Z" duration-ms="5770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T16:00:42Z" name="methodEndTest" finished-at="2020-09-28T16:00:42Z" duration-ms="468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC2 status=SUCCESS method=studentRegistrationFormTest.TC2()[pri:2, instance:Pages.studentRegistrationFormTest@3427b02d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodEndTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Pages.studentRegistrationFormTest@3427b02d]" started-at="2020-09-28T16:00:42Z" name="logout" finished-at="2020-09-28T16:00:44Z" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Pages.studentRegistrationFormTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Pages.studentRegistrationFormTest -->
+</testng-results>
