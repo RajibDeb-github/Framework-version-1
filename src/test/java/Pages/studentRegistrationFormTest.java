@@ -115,6 +115,17 @@ public class studentRegistrationFormTest extends base {
 	report.flush();
 
 	}
+	@Test(priority=3)
+	public static void TC3() {
+		createTest("Test Case 3: Upload the window based file with AutoIT");
+		try {
+			
+		}catch(Exception E) {
+			E.getMessage();
+			testReport.fail("Testcase 3 failed: Script Flow");
+		}
+		report.flush();
+	}
 	
 	@AfterMethod
 	public static void methodEndTest(ITestResult result) throws IOException {
