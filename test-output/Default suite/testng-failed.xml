@@ -6,8 +6,9 @@
       <class name="Pages.studentRegistrationFormTest">
         <methods>
           <include name="logout"/>
-          <include name="TC1"/>
           <include name="preCond"/>
+          <include name="TC2"/>
+          <include name="TC3"/>
           <include name="navigateToMainPage"/>
           <include name="methodEndTest"/>
         </methods>

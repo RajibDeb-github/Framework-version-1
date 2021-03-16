@@ -2,73 +2,73 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-30T16:40:42Z" name="Pages.studentRegistrationFormTest" finished-at="2020-09-30T16:41:46Z" duration-ms="64028">
+  <suite started-at="2020-11-03T13:38:22Z" name="Pages.studentRegistrationFormTest" finished-at="2020-11-03T13:39:11Z" duration-ms="49094">
     <groups>
     </groups>
-    <test started-at="2020-09-30T16:40:42Z" name="Command line test" finished-at="2020-09-30T16:41:46Z" duration-ms="64028">
+    <test started-at="2020-11-03T13:38:22Z" name="Command line test" finished-at="2020-11-03T13:39:11Z" duration-ms="49094">
       <class name="Pages.studentRegistrationFormTest">
-        <test-method is-config="true" signature="preCond()[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:40:42Z" name="preCond" finished-at="2020-09-30T16:41:18Z" duration-ms="35330" status="PASS">
+        <test-method is-config="true" signature="preCond()[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:38:22Z" name="preCond" finished-at="2020-11-03T13:38:47Z" duration-ms="24478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCond -->
-        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:18Z" name="navigateToMainPage" finished-at="2020-09-30T16:41:21Z" duration-ms="2851" status="PASS">
+        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:38:47Z" name="navigateToMainPage" finished-at="2020-11-03T13:38:49Z" duration-ms="2672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToMainPage -->
-        <test-method signature="TC1()[pri:1, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:21Z" name="TC1" finished-at="2020-09-30T16:41:30Z" duration-ms="9727" status="PASS">
+        <test-method signature="TC1()[pri:1, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:38:49Z" name="TC1" finished-at="2020-11-03T13:38:58Z" duration-ms="8306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1 -->
-        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:30Z" name="methodEndTest" finished-at="2020-09-30T16:41:31Z" duration-ms="845" status="PASS">
+        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:38:58Z" name="methodEndTest" finished-at="2020-11-03T13:38:58Z" duration-ms="375" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC1 status=SUCCESS method=studentRegistrationFormTest.TC1()[pri:1, instance:Pages.studentRegistrationFormTest@647e447] output={null}]]]>
+                <![CDATA[[TestResult name=TC1 status=SUCCESS method=studentRegistrationFormTest.TC1()[pri:1, instance:Pages.studentRegistrationFormTest@41fbdac4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodEndTest -->
-        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:31Z" name="navigateToMainPage" finished-at="2020-09-30T16:41:34Z" duration-ms="2855" status="PASS">
+        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:38:58Z" name="navigateToMainPage" finished-at="2020-11-03T13:38:59Z" duration-ms="1348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToMainPage -->
-        <test-method signature="TC2()[pri:2, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:34Z" name="TC2" finished-at="2020-09-30T16:41:39Z" duration-ms="5457" status="PASS">
+        <test-method signature="TC2()[pri:2, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:38:59Z" name="TC2" finished-at="2020-11-03T13:39:03Z" duration-ms="4100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2 -->
-        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:39Z" name="methodEndTest" finished-at="2020-09-30T16:41:40Z" duration-ms="1033" status="PASS">
+        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:39:03Z" name="methodEndTest" finished-at="2020-11-03T13:39:04Z" duration-ms="588" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC2 status=SUCCESS method=studentRegistrationFormTest.TC2()[pri:2, instance:Pages.studentRegistrationFormTest@647e447] output={null}]]]>
+                <![CDATA[[TestResult name=TC2 status=SUCCESS method=studentRegistrationFormTest.TC2()[pri:2, instance:Pages.studentRegistrationFormTest@41fbdac4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodEndTest -->
-        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:40Z" name="navigateToMainPage" finished-at="2020-09-30T16:41:43Z" duration-ms="2596" status="PASS">
+        <test-method is-config="true" signature="navigateToMainPage()[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:39:04Z" name="navigateToMainPage" finished-at="2020-11-03T13:39:05Z" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToMainPage -->
-        <test-method signature="TC3()[pri:3, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:43Z" name="TC3" finished-at="2020-09-30T16:41:44Z" duration-ms="615" status="PASS">
+        <test-method signature="TC3()[pri:3, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:39:05Z" name="TC3" finished-at="2020-11-03T13:39:08Z" duration-ms="3463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3 -->
-        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:44Z" name="methodEndTest" finished-at="2020-09-30T16:41:44Z" duration-ms="588" status="PASS">
+        <test-method is-config="true" signature="methodEndTest(org.testng.ITestResult)[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:39:08Z" name="methodEndTest" finished-at="2020-11-03T13:39:09Z" duration-ms="886" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC3 status=SUCCESS method=studentRegistrationFormTest.TC3()[pri:3, instance:Pages.studentRegistrationFormTest@647e447] output={null}]]]>
+                <![CDATA[[TestResult name=TC3 status=SUCCESS method=studentRegistrationFormTest.TC3()[pri:3, instance:Pages.studentRegistrationFormTest@41fbdac4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodEndTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Pages.studentRegistrationFormTest@647e447]" started-at="2020-09-30T16:41:44Z" name="logout" finished-at="2020-09-30T16:41:46Z" duration-ms="2035" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:Pages.studentRegistrationFormTest@41fbdac4]" started-at="2020-11-03T13:39:09Z" name="logout" finished-at="2020-11-03T13:39:11Z" duration-ms="1914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->

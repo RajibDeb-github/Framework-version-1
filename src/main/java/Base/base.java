@@ -27,6 +27,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -67,7 +68,11 @@ public class base {
 			FileInputStream practiceForm = new FileInputStream(
 					str + "\\src\\test\\java\\Repository\\practiceForm.properties");
 			prop.load(practiceForm);
-			/////////////////////////// Create
+			//uploadFile
+			FileInputStream uploadFile = new FileInputStream(
+					str + "\\src\\test\\java\\Repository\\uploadFile.properties");
+			prop.load(uploadFile);
+			/////////////////////////// Create /////////////////////////////////////////////
 			/////////////////////////// reports////////////////////////////////////////////
 			String pth;
 			DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd_MM_yyyy_HH_mm_ss");
@@ -86,6 +91,7 @@ public class base {
 			report = new ExtentReports();
 			report.attachReporter(reporter);
 			report.setSystemInfo("Tester", "Rajib Deb");
+			
 
 		} catch (Exception e) {
 			System.out.println("issue in properties file");
@@ -109,9 +115,9 @@ public class base {
 
 	}
 
-	public static void launchBrowser() {
+	public static void launchBrowser(String URL) {
 		try {
-			driver.get("https://demoqa.com/");
+			driver.get(URL);
 			System.out.println("The page title is: " + driver.getTitle());
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
@@ -146,7 +152,7 @@ public class base {
 	}
 
 	public static void verticalScrollPage(String dis) { // vertical scorlling
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		JavascriptExecutor js = (JavascriptExecutor) driver; //type casting
 		js.executeScript("window.scrollBy(0," + dis + ")");
 
 	}
@@ -188,6 +194,9 @@ public class base {
 	 */
 
 	public static void createTest(String testNumber) {
+		
+		/*public static ExtentReports report;
+		public static ExtentTest testReport;*/
 
 		testReport = report.createTest(testNumber);
 
@@ -249,5 +258,10 @@ public class base {
 		return destination;
 		
 	}
+	
+	public static void doubleClick(String element) {
+		   Actions action=new Actions(driver);
+		   action.doubleClick(getElement(element)).perform();
+	   }
 
 }

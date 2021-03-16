@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <parameter name="URL" value="https://demoqa.com/"/>
+  <test thread-count="5" verbose="5" name="ToolsQA(failed)">
     <classes>
       <class name="Pages.studentRegistrationFormTest">
         <methods>
           <include name="logout"/>
           <include name="TC1"/>
           <include name="preCond"/>
+          <include name="TC2"/>
+          <include name="TC3"/>
           <include name="navigateToMainPage"/>
           <include name="methodEndTest"/>
         </methods>
       </class> <!-- Pages.studentRegistrationFormTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -24,8 +24,8 @@ public class studentRegistrationFormTest extends base {
 	
 	@BeforeClass
 	public static void preCond() {
-		initialize();
-		launchBrowser();
+		initialize();		
+		launchBrowser("https://demoqa.com/");
 	}
 	@BeforeMethod
 	public static void navigateToMainPage() {
@@ -50,10 +50,10 @@ public class studentRegistrationFormTest extends base {
 	/*@BeforeTest
 	public void initiateReport() {
 		extentReport();
-		
+
 	}*/
 	
-	@Test(priority=1)
+	@Test(priority=1,enabled=true)
 	public static void TC1() {
 		
 		createTest("Test Case 1: Verify the page name in the Practice Form page");
@@ -85,7 +85,7 @@ public class studentRegistrationFormTest extends base {
 
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, enabled=true)
 	public static void TC2() {
 		createTest("Test Case 2: Field level verification in the Practice Form page");
 		try {		
@@ -115,10 +115,26 @@ public class studentRegistrationFormTest extends base {
 	report.flush();
 
 	}
-	@Test(priority=3)
+	@Test(priority=3, enabled=true)
 	public static void TC3() {
 		createTest("Test Case 3: Upload the window based file with AutoIT");
 		try {
+			impliciteWait(5);
+			testReport.info("Navigate to Practice form");			
+			input("firstName_id","Rajib");
+			testReport.info("Insert first name");
+			input("lastName_id","Deb");
+			testReport.info("Insert last name");
+			captureScreenshot("Test_Case_3", "Navigate to Practice form");
+			verticalScrollPage("200");
+			expliciteClickableWait("chooseFile_xpath");
+			doubleClick("chooseFile_xpath");
+			impliciteWait(5);
+			Runtime.getRuntime().exec("c:\\Rajib\\Java\\ToolsQAAutoIT_uploadFile1.exe");
+			impliciteWait(3);
+			captureScreenshot("Test_Case_3", "The File is uploaded");
+			testReport.pass("The file is uploaded");
+			
 			
 		}catch(Exception E) {
 			E.getMessage();
